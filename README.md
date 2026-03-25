@@ -1,12 +1,12 @@
 # BrugadaNet v3.3
 
-ResNet1D + CrossAttention untuk deteksi Brugada Syndrome dari sinyal ECG 12-lead.
+ResNet1D + CrossAttention for Brugada Syndrome detection from 12-lead ECG signals.
 
 ## Struktur Repo
 
 ```
 brugada_detection/
-├── data/                  # Di-ignore oleh git
+├── data/                  # Ignored by git
 │   ├── raw/
 │   └── processed/
 ├── models/
@@ -30,9 +30,9 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-Edit `.env` sesuaikan path dataset lokalmu.
+Edit `.env` to match your local dataset path.
 
-## Jalankan Training
+## Run Training
 
 ```bash
 python main.py
