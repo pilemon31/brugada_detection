@@ -1,0 +1,10 @@
+data/
+models/
+.env
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.keras
+*.h5
+.venv
